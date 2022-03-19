@@ -1,1 +1,272 @@
-*,*:after,*:before{box-sizing:border-box}html{font-size:62.5%;-webkit-tap-highlight-color:transparent}body{font-family:"Helvetica Neue",Helvetica,Arial,"Open Sans",sans-serif;font-size:140%;line-height:1.5;color:#444;background-color:#fff}img{max-width:100%;vertical-align:middle}a{color:#444;text-decoration:none}a:focus,a:hover{text-decoration:underline}input[type="text"],input[type="search"]{font-size:inherit;line-height:inherit}::selection{background-color:#04A4CC;color:#fff;text-shadow:none}.alignnone{margin:5px 15px 15px 0}.aligncenter{display:block;margin:5px auto}.alignright{float:right;margin:5px 0 15px 15px}.alignleft{float:left;margin:5px 15px 15px 0}.wp-caption{background:#fff;border:thin solid #F0F0F0;max-width:95%;padding:5px 5px;text-align:center}.wp-caption img{width:auto;max-width:98.5%;height:auto;border:0 none;padding:0;margin:0}.wp-caption .wp-caption-text,.gallery-caption{margin:0;padding:0 5px 5px;font-size:140%;line-height:1.5}.clear:before,.clear:after{content:" ";display:table}.clear:after{clear:both}.reset-box{padding:0;margin:0}.wrapper{max-width:1280px;padding:0 15px;margin:0 auto;position:relative}@media print{*,*:before,*:after{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a,a:visited{text-decoration:underline}a[href]:after{content:" (" attr(href) ")"}abbr[title]:after{content:" (" attr(title) ")"}a[href^="#"]:after,a[href^="javascript:"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}p,h2,h3{orphans:3;widows:3}h2,h3{page-break-after:avoid}}
+/*
+Theme Name: Brewery Branding Kit   
+Theme URI: https://github.com/dpetrohilos/brewerybrandingkit
+Author: Patrick St. John 
+Author URI: repeater.digital
+Description: Brewery Branding Kit, FlexBox Grid    
+*/
+/**
+ * styles.scss
+ * ---
+ * Main `sass` file. Import here `sass` files
+ */
+/**
+ * modules/variables
+ * ---
+ */
+/**
+ * Typography
+ */
+/**
+ * Colors
+ */
+/**
+ * Grid
+ */
+/**
+ * modules/mixins
+ * ---
+ */
+/**
+ * modules/fonts
+ * ---
+ * Declare fonts here
+ */
+/*
+@font-face {
+  font-family: "Font-Name";
+  src: url("fonts/font-name.eot");
+  src: url("fonts/font-name.eot?#iefix") format("embedded-opentype"),
+    url("fonts/font-name.woff") format("woff"),
+    url("fonts/font-name.ttf") format("truetype"),
+    url("fonts/font-name.svg#font-name") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+*/
+/**
+ * partials/reset
+ * ---
+ * Reset file
+ * NOTE: also `normalize.css` is used
+ */
+/* line 10, css/sass/partials/reset.scss */
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+/* line 16, css/sass/partials/reset.scss */
+html {
+  font-size: 62.5%;
+  -webkit-tap-highlight-color: transparent; }
+
+/* line 23, css/sass/partials/reset.scss */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Open Sans", sans-serif;
+  font-size: 140%;
+  line-height: 1.5;
+  color: #444;
+  background-color: #fff; }
+
+/* line 31, css/sass/partials/reset.scss */
+img {
+  max-width: 100%;
+  vertical-align: middle; }
+
+/* line 38, css/sass/partials/reset.scss */
+a {
+  color: #444;
+  text-decoration: none; }
+  /* line 42, css/sass/partials/reset.scss */
+  a:focus, a:hover {
+    text-decoration: underline; }
+
+/* line 50, css/sass/partials/reset.scss */
+input[type="text"],
+input[type="search"] {
+  font-size: inherit;
+  line-height: inherit; }
+
+/* line 57, css/sass/partials/reset.scss */
+::-moz-selection {
+  background-color: #04A4CC;
+  color: #fff;
+  text-shadow: none; }
+::selection {
+  background-color: #04A4CC;
+  color: #fff;
+  text-shadow: none; }
+
+/**
+ * partials/wordpress
+ * ---
+ * Wordpess core classes
+ */
+/**
+ * Alignment
+ */
+/* line 16, css/sass/partials/wordpress.scss */
+.alignnone {
+  margin: 5px 15px 15px 0; }
+
+/* line 20, css/sass/partials/wordpress.scss */
+.aligncenter {
+  display: block;
+  margin: 5px auto; }
+
+/* line 25, css/sass/partials/wordpress.scss */
+.alignright {
+  float: right;
+  margin: 5px 0 15px 15px; }
+
+/* line 30, css/sass/partials/wordpress.scss */
+.alignleft {
+  float: left;
+  margin: 5px 15px 15px 0; }
+
+/**
+ * Gallery & images
+ */
+/* line 40, css/sass/partials/wordpress.scss */
+.wp-caption {
+  background: #fff;
+  border: thin solid #F0F0F0;
+  max-width: 95%;
+  padding: 5px 5px;
+  text-align: center; }
+  /* line 47, css/sass/partials/wordpress.scss */
+  .wp-caption img {
+    width: auto;
+    max-width: 98.5%;
+    height: auto;
+    border: 0 none;
+    padding: 0;
+    margin: 0; }
+
+/* line 57, css/sass/partials/wordpress.scss */
+.wp-caption .wp-caption-text,
+.gallery-caption {
+  margin: 0;
+  padding: 0 5px 5px;
+  font-size: 140%;
+  line-height: 1.5; }
+
+/**
+ * partials/utils
+ * ---
+ * Utils classes
+ */
+/* line 10, css/sass/partials/utils.scss */
+.clear:before, .clear:after {
+  content: " ";
+  display: table; }
+/* line 16, css/sass/partials/utils.scss */
+.clear:after {
+  clear: both; }
+
+/* line 21, css/sass/partials/utils.scss */
+.reset-box {
+  padding: 0;
+  margin: 0; }
+
+/**
+ * partials/wrapper
+ * ---
+ */
+/* line 7, css/sass/partials/wrapper.scss */
+.wrapper {
+  max-width: 1280px;
+  padding: 0 15px;
+  margin: 0 auto;
+  position: relative; }
+
+/**
+ * partials/header
+ * ---
+ */
+/**
+ * partials/nav
+ * ---
+ * Menus
+ */
+/**
+ * partials/sidebar
+ * ---
+ */
+/**
+ * partials/footer
+ * ---
+ */
+/**
+ * partials/print
+ * ---
+ * Print version
+ * (from https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css)
+ */
+@media print {
+  /* line 10, css/sass/partials/print.scss */
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster: h5bp.com/s */
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+    text-shadow: none !important; }
+
+  /* line 19, css/sass/partials/print.scss */
+  a,
+  a:visited {
+    text-decoration: underline; }
+
+  /* line 24, css/sass/partials/print.scss */
+  a[href]:after {
+    content: " (" attr(href) ")"; }
+
+  /* line 28, css/sass/partials/print.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")"; }
+
+  /*
+   * Don't show links that are fragment identifiers,
+   * or use the `javascript:` pseudo protocol
+   */
+  /* line 37, css/sass/partials/print.scss */
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: ""; }
+
+  /* line 42, css/sass/partials/print.scss */
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid; }
+
+  /* line 48, css/sass/partials/print.scss */
+  thead {
+    display: table-header-group;
+    /* h5bp.com/t */ }
+
+  /* line 52, css/sass/partials/print.scss */
+  tr,
+  img {
+    page-break-inside: avoid; }
+
+  /* line 57, css/sass/partials/print.scss */
+  img {
+    max-width: 100% !important; }
+
+  /* line 61, css/sass/partials/print.scss */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3; }
+
+  /* line 68, css/sass/partials/print.scss */
+  h2,
+  h3 {
+    page-break-after: avoid; } }
